@@ -13,7 +13,7 @@
         If AscW(e.KeyChar) > 64 And AscW(e.KeyChar) < 91 Or AscW(e.KeyChar) > 96 And AscW(e.KeyChar) < 123 Or AscW(e.KeyChar) = 8 Then
         Else
             e.KeyChar = Nothing
-            MsgBox("Letters Only", MsgBoxStyle.Exclamation, "")
+            MsgBox("Letters Only", MsgBoxStyle.Information, "")
         End If
     End Sub
 End Module
